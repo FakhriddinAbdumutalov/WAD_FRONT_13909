@@ -3,7 +3,7 @@ import { Injectable, inject } from '@angular/core';
 import { Category, CategoryCreate } from '../interfaces/category.interface';
 import { Observable } from 'rxjs';
 
-const BASE_URL = 'http://localhost:5226/api';
+const BASE_URL = 'https://localhost:7150/api';
 @Injectable({
   providedIn: 'root',
 })
