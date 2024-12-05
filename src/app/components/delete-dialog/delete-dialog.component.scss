@@ -1,0 +1,44 @@
+.delete {
+  padding: 20px 30px;
+
+  &_title {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  &_content {
+    font-size: 20px;
+    color: gray;
+  }
+  &_buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .accent {
+      width: 100px;
+      background-color: black;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: black;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+    .primary {
+      width: 100px;
+      background-color: red;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: red;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+}

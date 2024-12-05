@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+app-navigation {
+  flex: 0 0 auto;
+}
+
+.content {
+  flex: 1 0 auto;
+  padding: 16px;
+}
+
+app-footer {
+  flex: 0 0 auto;
+}
