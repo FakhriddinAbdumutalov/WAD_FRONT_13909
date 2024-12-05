@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Movie, MovieCreate } from '../interfaces/movie.interface';
 
-const BASE_URL = 'http://localhost:5226/api';
+const BASE_URL = 'https://localhost:7150/api';
 @Injectable({
   providedIn: 'root',
 })
